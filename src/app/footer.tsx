@@ -1,5 +1,5 @@
 import { JSX, SVGProps } from "react"
-import { Logo } from "../logo"
+import { Logo } from "./logo"
 
 const navigation = {
   menu: [

@@ -24,7 +24,7 @@ import { StackedLayout } from '@/components/stacked-layout'
 import { Navbar, NavbarDivider, NavbarItem, NavbarLabel, NavbarSection, NavbarSpacer } from '@/components/navbar'
 import { usePathname } from 'next/navigation'
 import { Link } from '@/components/link'
-import { Logo } from '../logo'
+import { Logo } from './logo'
 import { Button } from '@/components/button'
 import Footer from './footer'
 

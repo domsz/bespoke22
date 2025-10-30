@@ -1,6 +1,4 @@
 import { Button } from '@/components/button'
-import { Checkbox, CheckboxField } from '@/components/checkbox'
-import { Divider } from '@/components/divider'
 import { Description, Field, FieldGroup, Label } from '@/components/fieldset'
 import { Heading, Subheading } from '@/components/heading'
 import { Input } from '@/components/input'
