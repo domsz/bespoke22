@@ -12,7 +12,7 @@ export default async function About() {
   return (
     <div className="py-10 px-4">
       <Heading>Crafting Bespoke Workwear for a Luxury Experience</Heading>
-      <div className="mt-6 max-w-3xl space-y-6 text-base/7 text-zinc-700 dark:text-zinc-300">
+      <div className="mt-6 max-w-3xl space-y-6 text-base/7 text-zinc-700">
         <p>
           B22 was founded by Gianni Lilliu in 2017, specialising in boutique tailoring for luxury workwear in the hospitality sector. With a focus on impeccable fit, style, and comfort, we create garments that reflect the professionalism and elegance that your team embodies. Whether you&apos;re outfitting a hotel, restaurant, or corporate professionals, B22&apos;s commitment to craftsmanship ensures that each piece is as unique as your business.
         </p>

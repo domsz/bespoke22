@@ -29,7 +29,7 @@ function MobileSidebar({ open, close, children }: React.PropsWithChildren<{ open
       <Headless.DialogPanel
         transition
         className="fixed inset-y-0 w-full transition-opacity duration-300 ease-in-out data-[closed]:opacity-0">
-        <div className="flex h-full flex-col bg-white shadow-xs dark:bg-zinc-900">
+        <div className="flex h-full flex-col bg-white shadow-xs">
           <div className="ml-auto pr-4 pt-4">
             <Headless.CloseButton as={NavbarItem} aria-label="Close navigation">
               <CloseMenuIcon />
@@ -57,7 +57,7 @@ export function StackedLayout({
       </MobileSidebar>
 
       {/* Navbar */}
-      <header className="fixed inset-x-0 top-0 flex items-center px-6 h-20 w-full dark:bg-zinc-900">
+      <header className="fixed inset-x-0 top-0 flex items-center px-6 h-20 w-full">
         <div className="mx-auto max-w-[1201px] flex-1">
           {navbar}
         </div>
@@ -70,7 +70,7 @@ export function StackedLayout({
 
       {/* Content */}
       <main className="flex flex-1 flex-col mt-20">
-        <div className="grow p-6 dark:bg-zinc-900">
+        <div className="grow p-6">
           <div className="mx-auto max-w-[1201px]">{children}</div>
         </div>
       </main>

@@ -18,7 +18,7 @@ function RulerSeparator({
         return (
           <span
             key={i}
-            className="absolute top-6 text-zinc-300 dark:text-zinc-400"
+            className="absolute top-6 text-zinc-300"
             style={{ left: `${i * majorTickSpacing}px`, transform: "translateX(-50%)" }}
           >
             {i}

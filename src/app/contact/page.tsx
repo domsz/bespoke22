@@ -13,7 +13,7 @@ export default async function Contact() {
   return (
     <div className="py-10 px-4">
       <Heading>Get in Touch</Heading>
-      <div className="mt-6 max-w-3xl space-y-6 text-base/7 text-zinc-700 dark:text-zinc-300">
+      <div className="mt-6 max-w-3xl space-y-6 text-base/7 text-zinc-700">
         <p>
           Contact us today to book a consultation or request a quote. Our team is happy to discuss your specific needs and guide you through the bespoke tailoring process.
         </p>
