@@ -57,8 +57,8 @@ export function StackedLayout({
       </MobileSidebar>
 
       {/* Navbar */}
-      <header className="fixed inset-x-0 top-0 flex items-center px-4 h-20 w-full dark:bg-zinc-900">
-        <div className="mx-auto max-w-screen-2xl flex-1 px-4">
+      <header className="fixed inset-x-0 top-0 flex items-center px-6 h-20 w-full dark:bg-zinc-900">
+        <div className="mx-auto max-w-[1201px] flex-1">
           {navbar}
         </div>
         <div className="py-2.5 lg:hidden">
@@ -71,7 +71,7 @@ export function StackedLayout({
       {/* Content */}
       <main className="flex flex-1 flex-col mt-20">
         <div className="grow p-6 dark:bg-zinc-900">
-          <div className="mx-auto max-w-screen-2xl">{children}</div>
+          <div className="mx-auto max-w-[1201px]">{children}</div>
         </div>
       </main>
     </div>

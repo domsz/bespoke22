@@ -66,7 +66,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-black">
-      <div className="mx-auto max-w-screen-2xl px-6 pb-8 pt-16">
+      <div className="mx-auto max-w-[1201px] px-6 pb-8 pt-16">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <Logo className="h-20 text-white -m-2" />
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

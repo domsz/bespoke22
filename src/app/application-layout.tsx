@@ -38,7 +38,8 @@ export function ApplicationLayout({
   const navItems = [
     { label: 'About', url: '/about' },
     { label: 'Services', url: '/services' },
-    { label: 'Clients', url: '/clients' },
+    { label: 'Projects', url: '/projects' },
+    { label: 'Testimonials', url: '/testimonials' },
     { label: 'Pricing', url: '/pricing' },
   ]
 
